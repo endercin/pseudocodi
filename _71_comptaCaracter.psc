@@ -1,7 +1,7 @@
 Proceso _71_comptaCaracter
-	// Demana una cadena i un caràcter per teclat
-	// (valida que sigui un caràcter) i mostra quantes
-	// vegades apareix el caràcter a la cadena.
+	// Demana una cadena i un caracter per teclat
+	// (valida que sigui un caracter) i mostra quantes
+	// vegades apareix el caracter a la cadena.
 	
 	Definir cadenaLlegida como Cadena;
 	Definir posicio, comptaCaracter Como Entero;

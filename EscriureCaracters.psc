@@ -1,4 +1,4 @@
-Proceso EscribirCaracteres
+Proceso EscriureCaracters
 	Definir cadenaLlegida Como Cadena;
 	Definir posicio Como Entero;
 	Escribir Sin Saltar "Entra una cadena: ";

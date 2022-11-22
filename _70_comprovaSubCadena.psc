@@ -1,6 +1,6 @@
 Proceso _70_comprovaSubCadena
 	// Realitzar un programa que comprova si una cadena
-	// llegida per teclat comença per una subcadena introduïda
+	// llegida per teclat comenca per una subcadena introduida
 	// per teclat.
 	
 	Definir cadenaSencera como Cadena;
