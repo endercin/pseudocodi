@@ -19,6 +19,7 @@ Proceso _71_comptaCaracter
 			Escribir "   Torna a intentar-ho!";
 		FinSi
 	Hasta Que ( !( Longitud(caracterLlegit)<>1 ) );
+	
 	Para posicio <- 0 Hasta Longitud(cadenaLlegida) - 1 Con Paso 1 Hacer
 		lletraPosicio <- Subcadena(cadenaLlegida,posicio,posicio);
 		Si (lletraPosicio = caracterLlegit) Entonces
