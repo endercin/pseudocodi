@@ -1,6 +1,6 @@
 Proceso vectors
-	Definir vectorNombres1, vectorNombres2, vectorNombres3, posicio Como Entero;
-	Dimension vectorNombres1[5], vectorNombres2[5], vectorNombres3[5];
+	Definir vectorNombres1, vectorNombres2, vectorSuma, posicio Como Entero;
+	Dimension vectorNombres1[5], vectorNombres2[5], vectorSuma[5];
 	
 	//Primer recorregut per omplir el vector
 	Para posicio<-0 hasta 4 hacer
@@ -19,12 +19,12 @@ Proceso vectors
 	
 	//Quart recorregut per sumar els vectors
 	Para posicio<-0 hasta 4 hacer
-		vectorNombres3[posicio] <- vectorNombres1[posicio] + vectorNombres2[posicio];
+		vectorSuma[posicio] <- vectorNombres1[posicio] + vectorNombres2[posicio];
 	FinPara
 	
 	//Tercer recorregut per mostrar el vector3
 	Para posicio<-0 hasta 4 hacer
-		Escribir "Element [" , posicio , "] = " , vectorNombres3[posicio];
+		Escribir "Element [" , posicio , "] = " , vectorSuma[posicio];
 	FinPara
 	
 FinProceso
