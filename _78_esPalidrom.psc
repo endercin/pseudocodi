@@ -15,6 +15,6 @@ Proceso _78_esPalidrom
 	Si cadena1=cadena2 Entonces
 		Escribir "Es un palindrom";
 	SiNo
-		Escribir "No es un palindromo";
+		Escribir "No es un palindrom";
 	FinSi
 FinProceso
