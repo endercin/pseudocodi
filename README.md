@@ -2,7 +2,7 @@
 
 ## EscriureCaracters
 
-<style>
+<!-- <style>
     class="SSD" => style="color:#FFFFFF;"
     style="color:#000000;" => style="color:#000000;"
     style="color:#000000;" => style="color:#000000;"
@@ -31,7 +31,7 @@
     style="color:#000000; background-color:#BFD8D8;" => style="color:#000000; background-color:#BFD8D8;"
     style="font-weight: bold; color:#FF0000; background-color:#F0F0FF;" => style="font-weight: bold; color:#FF0000; background-color:#F0F0FF;"
     style="font-weight: bold; color:#800000; => style="font-weight: bold; color:#800000;
-</style>
+</style> -->
 <pre>
 <span style="font-weight: bold; color:#000080;">Proceso</span><span style="color:#000000;">_71_comptaCaracter</span><span style="font-style: italic; color:#969696;">// Demana una cadena i un caràcter per teclat</span><span style="font-style: italic; color:#969696;">// (valida que sigui un caràcter) i mostra quantes</span><span style="font-style: italic; color:#969696;">// vegades apareix el caràcter a la cadena.</span><span style="color:#000000;">
     
