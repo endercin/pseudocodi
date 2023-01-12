@@ -1,0 +1,40 @@
+Elx
+Celta
+0
+1
+València
+Cádiz
+0
+1
+Vila-real
+Real Madrid
+2
+1
+Mallorca
+Valladolid
+1
+0
+Espanyol
+Girona FC
+2
+2
+Almería
+Reial Societat
+0
+2
+Rayo Vallecano
+Betis
+1
+2
+Sevilla FC
+Getafe
+2
+1
+Atlètic de Madrid
+Barcelona
+0
+1
+Ath. Bilbao
+Osasuna
+0
+0
