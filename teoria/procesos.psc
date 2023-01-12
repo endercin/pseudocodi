@@ -6,16 +6,16 @@ Proceso provaFunciones
 	Escribir "Cridem a l accio (proces) salutaciosalutacio(): ";
 	salutacio();
 	
-	Escribir Sin Saltar "Entra un valor numï¿½rico per la variable realEntrat: ";
+	Escribir Sin Saltar "Entra un valor numèrico per la variable realEntrat: ";
 	Leer realEntrat;
 	
     Escribir "El valor de realEntrat abans de fer la crida de calcularDoble es [", realEntrat, "]";
-	Escribir "Cridem a la funciï¿½n calcularDoble(realEntrat) amb variable pasada per valor.";
+	Escribir "Cridem a la funció calcularDoble(realEntrat) amb variable pasada per valor.";
 	Escribir "El doble de ", realEntrat , " es ", calcularDoble(realEntrat);
 	Escribir "El valor de realEntrat un cop executat calcularDoble(realEntrat) es [", realEntrat, "]";
 	
     Escribir "El valor de realEntrat abans de fer la crida de triplicar es [", realEntrat, "]";
-    Escribir "Cridem a la funciï¿½n triplicar(realEntrat) amb variable pasada per valor.";
+    Escribir "Cridem a la funció triplicar(realEntrat) amb variable pasada per valor.";
 	triplicar(realEntrat);
     Escribir "El valor de realEntrat un cop executat triplicar() es [", realEntrat, "]";
 	
@@ -27,26 +27,26 @@ SubProceso salutacio()
 	Escribir "Hola mon!";
 FinSubProceso
 
-// Exemple de funciï¿½ que rep un argument per valor, i torna el doble d'aquest
+// Exemple de funció que rep un argument per valor, i torna el doble d'aquest
 Funcion doble <- calcularDoble(numRebut) 
 	Definir doble Como Real;
 	doble <- numRebut * 2; // retorna el doble
 FinFuncion
 
-// Exemple de funciï¿½ que rep un argument per referï¿½ncia, i el modifica
+// Exemple de funció que rep un argument per referï¿½ncia, i el modifica
 SubProceso triplicar(numRebut por referencia) 
 	numRebut <- numRebut * 3; // modifica la variable triplicant el su valor
 FinSubProceso
 
-// *** Ejecuciï¿½n Iniciada. ***
+// *** Ejecución Iniciada. ***
 // Cridem a l accio (proces) salutaciosalutacio():
 //	 Hola mon!
-// Entra un valor numï¿½rico per la variable realEntrat: > 10
+// Entra un valor numèrico per la variable realEntrat: > 10
 //	 El valor de realEntrat abans de fer la crida de calcularDoble es [10]
-//	 Cridem a la funciï¿½n calcularDoble(realEntrat) amb variable pasada per valor.
+//	 Cridem a la funció calcularDoble(realEntrat) amb variable pasada per valor.
 //	 El doble de 10 es 20
 //	 El valor de realEntrat un cop executat calcularDoble(realEntrat) es [10]
 //	 El valor de realEntrat abans de fer la crida de triplicar es [10]
-//	 Cridem a la funciï¿½n triplicar(realEntrat) amb variable pasada per valor.
+//	 Cridem a la funció triplicar(realEntrat) amb variable pasada per valor.
 //	 El valor de realEntrat un cop executat triplicar() es [30]
-//*** Ejecuciï¿½n Finalizada. ***
+//*** Ejecución Finalizada. ***
