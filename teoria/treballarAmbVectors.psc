@@ -71,4 +71,3 @@ SubProceso mostraVector(vectorAMostrar, midaVector)
 	Escribir "";
 	Escribir "------------------------";
 FinSubProceso
-
