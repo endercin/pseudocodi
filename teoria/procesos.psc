@@ -5,19 +5,33 @@ Proceso provaFunciones
 	
 	Escribir "Cridem a l accio (proces) salutaciosalutacio(): ";
 	salutacio();
-	
+	Escribir "";
 	Escribir Sin Saltar "Entra un valor numèrico per la variable realEntrat: ";
 	Leer realEntrat;
 	
+	Escribir "";
     Escribir "El valor de realEntrat abans de fer la crida de calcularDoble es [", realEntrat, "]";
+	Escribir "";
 	Escribir "Cridem a la funció calcularDoble(realEntrat) amb variable pasada per valor.";
+	Escribir "";
 	Escribir "El doble de ", realEntrat , " es ", calcularDoble(realEntrat);
+	Escribir "";
 	Escribir "El valor de realEntrat un cop executat calcularDoble(realEntrat) es [", realEntrat, "]";
-	
+	Escribir "";
+	Escribir "Cridem a el proces calcularDoblePerRef(realEntrat) amb variable pasada per referencia.";
+	Escribir "";
+	calcularDoblePerRef(realEntrat);
+	Escribir "El doble de ", realEntrat , " es ", realEntrat, "<= hem perdut el valor de la variable que tenia abans!";
+	Escribir "";
+	Escribir "El valor de realEntrat un cop executat calcularDoble(realEntrat) es [", realEntrat, "]";
+	Escribir "";
     Escribir "El valor de realEntrat abans de fer la crida de triplicar es [", realEntrat, "]";
-    Escribir "Cridem a la funció triplicar(realEntrat) amb variable pasada per valor.";
+    Escribir "";
+	Escribir "Cridem a la funció triplicar(realEntrat) amb variable pasada per referencia.";
 	triplicar(realEntrat);
-    Escribir "El valor de realEntrat un cop executat triplicar() es [", realEntrat, "]";
+    
+	Escribir "";
+	Escribir "El valor de realEntrat un cop executat triplicar() es [", realEntrat, "]";
 	
 FinProceso
 
@@ -32,6 +46,12 @@ Funcion doble <- calcularDoble(numRebut)
 	Definir doble Como Real;
 	doble <- numRebut * 2; // retorna el doble
 FinFuncion
+
+SubProceso  calcularDoblePerRef(numRebut Por Referencia) 
+	numRebut <- numRebut * 2; // retorna el doble
+FinSubProceso 
+
+
 
 // Exemple de funció que rep un argument per referï¿½ncia, i el modifica
 SubProceso triplicar(numRebut por referencia) 
